@@ -97,7 +97,7 @@ def predict(args, model=None):
 def main():
     parser=argparse.ArgumentParser(description='Local draft component segmentation; not dimension acceptance')
     parser.add_argument('image',type=Path)
-    parser.add_argument('--weights',type=Path,default=ROOT/'outputs/training/component-v1-cpu/weights/best.pt')
+    parser.add_argument('--weights',type=Path,default=ROOT/'models/component-v1/best.pt')
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--refine-boundary',action='store_true')
     parser.add_argument('--measure',action='store_true',help='Experimental measurement using detected 150 mm cards')

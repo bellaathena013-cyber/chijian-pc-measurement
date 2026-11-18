@@ -34,7 +34,7 @@ def rectangle_candidate(polygon):
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--weights',type=Path,default=ROOT/'outputs/training/component-v1-cpu/weights/best.pt')
+    parser.add_argument('--weights',type=Path,default=ROOT/'models/component-v1/best.pt')
     parser.add_argument('--dataset',type=Path,default=ROOT/'samples/real/20260930/segmentation-v2')
     parser.add_argument('--output',type=Path,default=ROOT/'outputs/segmentation-v1/evaluation')
     parser.add_argument('--imgsz',type=int,default=512)

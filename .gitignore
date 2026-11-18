@@ -20,3 +20,9 @@ deliverables/
 
 # Generated outputs
 output/
+
+!models/
+models/*
+!models/component-v1/
+models/component-v1/*
+!models/component-v1/best.pt

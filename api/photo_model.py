@@ -8,7 +8,7 @@ from api.model_runtime import runtime
 
 ROOT = Path(__file__).resolve().parents[1]
 PYTHON = ROOT / '.venv-train/Scripts/python.exe'
-WEIGHTS = ROOT / 'outputs/training/component-v1-cpu/weights/best.pt'
+WEIGHTS = ROOT / 'models/component-v1/best.pt'
 
 REASONS = {
     'MARKER_GEOMETRY_INCONSISTENT': '标志角点与方形约束不一致，请核对黑色外框是否清晰、平整。',
