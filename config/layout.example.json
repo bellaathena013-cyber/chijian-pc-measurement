@@ -1,0 +1,10 @@
+{
+  "layout_id": "demo-4400x1400-centres",
+  "dictionary": "DICT_4X4_50",
+  "markers": [
+    {"id": 0, "center_mm": [0, 0], "rotation_deg": 0},
+    {"id": 1, "center_mm": [4400, 0], "rotation_deg": 0},
+    {"id": 2, "center_mm": [4400, 1400], "rotation_deg": 0},
+    {"id": 3, "center_mm": [0, 1400], "rotation_deg": 0}
+  ]
+}

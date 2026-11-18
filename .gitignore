@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+.venv/
+.venv-train/
+models/
+*.pt
+Ultralytics/
+__pycache__/
+.pytest_cache/
+materials/
+tmp/
+outputs/
+samples/real/
+*.log
+deliverables/
+
+# Local Codex workspace
+.codex/
+
+# Generated outputs
+output/

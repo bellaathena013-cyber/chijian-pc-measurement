@@ -1,0 +1,21 @@
+{
+  "status": "provisional_conservative_groups_not_confirmed_physical_ids",
+  "basis": "Visual review plus similar tape dimensions; ambiguous similar components are kept together. Dimensions are used ONLY for leakage grouping, never model features or inference.",
+  "groups": [
+    {"group_id":"A","split":"train","indices":[1,2]},
+    {"group_id":"B","split":"train","indices":[3,5,13,20,24,25]},
+    {"group_id":"C","split":"train","indices":[4]},
+    {"group_id":"D","split":"train","indices":[6,7,17,18,26,27,32,33]},
+    {"group_id":"E","split":"val","indices":[8,9]},
+    {"group_id":"F","split":"train","indices":[10,11]},
+    {"group_id":"G","split":"test","indices":[12]},
+    {"group_id":"H","split":"train","indices":[14]},
+    {"group_id":"I","split":"val","indices":[15,16]},
+    {"group_id":"J","split":"test","indices":[19]},
+    {"group_id":"K","split":"test","indices":[21,34,35]},
+    {"group_id":"L","split":"train","indices":[22,23,28,29]},
+    {"group_id":"M","split":"val","indices":[30,31]},
+    {"group_id":"N","split":"train","indices":[36,37]},
+    {"group_id":"O","split":"test","indices":[38,39]}
+  ]
+}

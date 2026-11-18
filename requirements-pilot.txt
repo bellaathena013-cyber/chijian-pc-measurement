@@ -1,0 +1,3 @@
+# Experimental calibration only; does not change the existing web path.
+-r requirements.txt
+scipy==1.18.1

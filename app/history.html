@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>检测记录 · 尺见</title><link rel="stylesheet" href="/static/style.css?v=20261005-startup1"></head>
+<body><header><div class="brand">尺见 <span>PC 构件尺寸测量</span></div><nav aria-label="主导航"><a href="/">照片测量</a><a href="/history" aria-current="page">检测记录</a></nav></header>
+<main><div class="heading"><div><h1>检测记录</h1><p>查看本机最近 30 次测量，复核照片与尺寸，回放识别结果。</p></div><a class="button-link" href="/">＋ 新建测量</a></div>
+<section id="history-list" class="history history-page"><div class="toolbar"><h2>最近测量</h2><button id="refresh" type="button">刷新记录</button></div><div id="history" aria-live="polite">正在读取记录…</div></section>
+<section id="record" class="record" hidden aria-label="检测记录详情"><div class="toolbar"><div><button id="back-list" type="button">← 返回记录列表</button><h2 id="record-title">检测详情</h2><p class="hint">历史记录只供查看。重新测量请返回照片测量页上传原图。</p></div><a id="download" class="button-link">下载结果 JSON</a></div>
+<div id="record-message" role="status"></div><div id="process" class="process" hidden aria-label="识别过程回放"></div>
+<div id="views" class="history-views" aria-label="查看历史图片"></div><div id="stage"><canvas id="canvas" hidden aria-label="历史照片与识别结果"></canvas></div>
+<div id="record-result"></div></section><p id="error" role="alert"></p></main><script src="/static/process-player.js?v=20261005-startup1"></script><script src="/static/history.js?v=20261005-startup1"></script></body></html>
